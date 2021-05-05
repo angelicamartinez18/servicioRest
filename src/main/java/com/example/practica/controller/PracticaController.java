@@ -38,7 +38,7 @@ public class PracticaController {
 		}
 		return andView;
 	}
-	@GetMapping("/listado")
+	/*@GetMapping("/listado")
 	public String mostrarUsuario(Model model) {
 		List<User> listaUsuarios=new ArrayList<User>();
 		listaUsuarios=practicaService.listarUsuarios();
